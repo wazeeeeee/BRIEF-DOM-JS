@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/index.css">
+    <title></title>
+  </head>
+  <body class="bg-black">
+
+    <header>
+      <nav class="bg-blue-700 w-[100%] h-[50px] text-center">
+        <ul class="text-white inline-flex mt-[10px]">
+          <li><a class="px-5" href="./index.html">Caroussel</a></li>
+          <li><a class="px-5" href="./todo-list.html">Todo List</a></li>
+          <li><a class="px-5" href="./score-keeper.html">Score Keeper</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="w-[1440px] h-[810px]">
+      <img class="w-full h-full bg-red-600 block z-O" src="https://i.pinimg.com/originals/88/4d/e8/884de81d29f37619ff17935475764213.jpg" alt="" id="image">
+      <img class="w-full h-full bg-blue-600 hidden z-0" src="https://i.redd.it/i-made-some-rocket-league-wallpapers-for-myself-in-blender-v0-z2mj9vn3o3j91.png?width=1920&format=png&auto=webp&s=6f6319a2dcabb36d88569089cb712cda1d9ff93f" alt="" id="image">
+      <img class="w-full h-full bg-green-600 hidden z-O" src="https://media.istockphoto.com/id/1006291908/photo/red-boxing-glove.jpg?s=612x612&w=0&k=20&c=pILppSNtnTy2n7iZEyrBSyJjQZse2haBBD4a5zt1Gjk=" alt="" id="image">
+      <img class="w-full h-full bg-yellow-600 hidden z-0" src="https://c0.wallpaperflare.com/preview/218/795/760/sport-ball-clay-court.jpg" alt="" id="image">
+      <div class="relative bottom-[400px]">
+        <button class="z-10 text-white text-3xl absolute left-[100px] transition duration-300 hover:scale-150" id="previous">&laquo;</button>
+        <button class="z-10 text-white text-3xl absolute left-[1300px] transition duration-300 hover:scale-150" id="next">&raquo;</button>
+      </div>
+    </div>
+
+
+    <script src="./src/caroussel.js"></script>
+  </body>
+</html>
