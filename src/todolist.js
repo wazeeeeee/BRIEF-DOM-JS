@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function(){ // DOMContentLoaded es
     document.body.appendChild(ul); // je lui demande d'etre en fin de list.
     let addButton = document.getElementById('submit'); // déclaration de la variable addButton assigné au button submit.
     let resetButton = document.getElementById('reset'); // déclaration de la variable resetButton assigné au button reset.
-    let delButton = document.createElement('button');
 
     // création de la function du button submit
     addButton.addEventListener('click', function(){
