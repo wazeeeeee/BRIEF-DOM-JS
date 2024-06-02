@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div input {
+    border-radius: 15px;
+    border: black solid;
+    color: black;
+    margin-right: 10px;
+    text-align: center;
+}
+
+div .submit {
+    width: 100px;
+    background-color: rgb(96, 96, 255);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 25px;
+}
+
+div .reset {
+    background-color: rgb(96, 96, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 25px;
+}

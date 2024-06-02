@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
-    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="todolist.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
 
-    <header>
-        <nav class="bg-blue-700 w-[100%] h-[50px] text-center">
-          <ul class="text-white inline-flex mt-[10px]">
-            <li><a class="px-5" href="./index.html">Caroussel</a></li>
-            <li><a class="px-5" href="./todo-list.html">Todo List</a></li>
-            <li><a class="px-5" href="./score-keeper.html">Score Keeper</a></li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Caroussel</a></li>
+        <li><a href="todo-list.html">Todo List</a></li>
+        <li><a href="score-keeper.html">Score Keeper</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <div class="text-center mt-[50px]">
-        <input class="rounded-md border border-black text-black mr-[10px] text-center" type="text" id="input">
-        <button class="w-[100px] bg-blue-500 text-white rounded-md" id="submit">Submit</button>
-        <button class="w-[20px] h-[25px] bg-blue-500 rounded-md text-white" id="reset">&times;</button>
+      <div>
+        <input type="text" id="input">
+        <button class="submit" id="submit">Submit</button>
+        <button class="reset" id="reset">&times;</button>
       </div>
 
 
-      <script src="./src/todolist.js"></script>
+      <script src="todolist.js"></script>
 </body>
 </html>

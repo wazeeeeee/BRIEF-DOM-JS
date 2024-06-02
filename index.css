@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.content {
+    width: 1440px;
+    height: 810px;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.btn {
+    position: relative;
+    bottom: 400px;
+}
+
+.btn button {
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    border: none;
+    transition-duration: 300ms;
+    background-color: transparent;
+}
+
+.btn button:hover {
+    transform: scale(1.50);
+}
